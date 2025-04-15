@@ -10,17 +10,17 @@ However, it is inconvenient to type `vendor/bin/drush` in order to execute Drush
 
 ## Installation - Phar
 
-1. Download latest stable release via CLI (code below) or browse to https://github.com/drush-ops/drush-launcher/releases/latest.
+1. Download latest stable release via CLI (code below) or browse to https://github.com/lennyaspen/drush-launcher/releases/latest.
 
     OSX:
     ```Shell
-    curl -OL https://github.com/drush-ops/drush-launcher/releases/latest/download/drush.phar
+    curl -OL https://github.com/lennyaspen/drush-launcher/releases/download/v0.10.3/drush.phar
     ```
 
     Linux:
 
     ```Shell
-    wget -O drush.phar https://github.com/drush-ops/drush-launcher/releases/latest/download/drush.phar
+    wget -O drush.phar https://github.com/lennyaspen/drush-launcher/releases/download/v0.10.3/drush.phar
     ```
 1. Make downloaded file executable: `chmod +x drush.phar`
 1. Move drush.phar to a location listed in your `$PATH`, rename to `drush`:
